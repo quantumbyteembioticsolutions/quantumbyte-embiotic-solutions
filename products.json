@@ -9,19 +9,25 @@
     "name": "SirenGuard",
     "type": "Connected Safety",
     "image": "assets/sirenguard.png",
-    "desc": "Plug-and-play emergency alerting with replaceable controller, LTE, audio, amplifier and power modules."
+    "desc": "Modular emergency communication with replaceable LTE, audio, amplifier and power modules."
   },
   {
     "name": "HomeGuard",
     "type": "Smart Water",
     "image": "assets/homeguard.png",
-    "desc": "Smart tank, pump, flow and leakage monitoring with connected household water control."
+    "desc": "Smart home water and pump management with tank monitoring, automation and motor protection."
   },
   {
     "name": "FarmGuard",
     "type": "Agriculture IoT",
     "image": "assets/farmguard.png",
-    "desc": "Smart irrigation pump control with water-level monitoring, dry-run protection, overflow prevention where applicable, and remote monitoring."
+    "desc": "Smart irrigation pump control with water-level monitoring, motor protection and connected field status."
+  },
+  {
+    "name": "BMS Battery Management System",
+    "type": "Battery & Energy Systems",
+    "image": "assets/bms.png",
+    "desc": "Battery monitoring and protection with voltage, current, temperature, state-of-charge and cell-balancing support."
   },
   {
     "name": "QBESIQ FactoryOS",
@@ -51,6 +57,6 @@
     "name": "Smart RWH Guardian",
     "type": "Rainwater Harvesting",
     "image": "assets/rainwater-harvesting.png",
-    "desc": "Smart rainwater harvesting monitoring, water-quality sensing, recharge control and remote alerts."
+    "desc": "Smart rainwater harvesting with rainfall, tank, water-quality and recharge monitoring."
   }
 ]

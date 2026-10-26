@@ -79,6 +79,15 @@ const projects = [
     stack:'Industrial camera • Edge compute • Vision AI • OpenCV • PLC/GPIO • Industrial Ethernet'
   },
   {
+    title:'BMS Battery Management System', category:'Battery / Energy Systems', image:'assets/bms.png',
+    summary:'Battery monitoring and protection for safer, more consistent battery-pack operation.',
+    problem:'Battery packs need coordinated monitoring of cell voltage, current and temperature to help identify unsafe or imbalanced operating conditions.',
+    solution:'A battery management system concept monitors battery status and supports protection logic, state-of-charge estimation and cell balancing when matched to the selected chemistry and hardware.',
+    features:['Cell-voltage monitoring','Pack current measurement','Temperature monitoring','State-of-charge estimation','Cell balancing support','Fault status and data logging'],
+    details:'BMS configuration depends on battery chemistry, series cell count, current limits, balancing method and required safety design. Protection thresholds must be validated for the final battery pack.',
+    stack:'Battery monitor IC • Current sensing • Temperature sensing • MCU • Balancing circuitry • CAN / UART / RS485 (as required)'
+  },
+  {
     title:'Smart Rainwater Harvesting Guardian', category:'Water / Sustainability', image:'assets/rainwater-harvesting.png',
     summary:'Intelligent rainwater harvesting monitoring, water-quality checks, recharge control and remote alerts.',
     problem:'Rainwater harvesting installations often operate without measurement, quality monitoring or visibility into storage and recharge performance.',
@@ -94,6 +103,7 @@ const products = [
   {name:'SirenGuard',type:'Connected Safety',image:'assets/sirenguard.png',desc:'Plug-and-play emergency alerting with replaceable controller, LTE, audio, amplifier and power modules.'},
   {name:'HomeGuard',type:'Smart Water',image:'assets/homeguard.png',desc:'Smart tank, pump, flow and leakage monitoring with connected household water control.'},
   {name:'FarmGuard',type:'Agriculture IoT',image:'assets/farmguard.png',desc:'Smart irrigation pump control with water-level monitoring, dry-run protection, overflow prevention where applicable, and remote monitoring.'},
+  {name:'BMS Battery Management System',type:'Battery & Energy Systems',image:'assets/bms.png',desc:'Battery monitoring and protection with voltage, current, temperature, state-of-charge and cell-balancing support.'},
   {name:'QBESIQ FactoryOS',type:'Factory Intelligence',image:'assets/factoryos-new.png',desc:'AI-powered factory operating system for machine condition, production signals, events and analytics.'},
   {name:'MachineGuard AI',type:'Predictive Maintenance',image:'assets/machineguard.png',desc:'Vibration, temperature and current-based machine-health monitoring and early anomaly detection.'},
   {name:'Broken Part Detection',type:'AI Vision Inspection',image:'assets/broken-part-detection-new.png',desc:'Vision inspection for cracks, missing pieces, deformation and visible component damage.'},
