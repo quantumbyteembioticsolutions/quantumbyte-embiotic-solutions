@@ -1,10 +1,56 @@
 [
-  {"name":"Smart Soil Testing & Irrigation","type":"Agriculture IoT","image":"assets/smart-soil.png","desc":"Portable soil testing, nutrient sensing and connected irrigation intelligence for practical agriculture."},
-  {"name":"SirenGuard","type":"Connected Safety","image":"assets/sirenguard.png","desc":"Plug-and-play emergency alerting with replaceable controller, LTE, audio, amplifier and power modules."},
-  {"name":"HomeGuard","type":"Smart Water","image":"assets/homeguard.png","desc":"Smart tank, pump, flow and leakage monitoring with connected household water control."},
-  {"name":"QBESIQ FactoryOS","type":"Factory Intelligence","image":"assets/factoryos-new.png","desc":"AI-powered factory operating system for machine condition, production signals, events and analytics."},
-  {"name":"MachineGuard AI","type":"Predictive Maintenance","image":"assets/machineguard.png","desc":"Vibration, temperature and current-based machine-health monitoring and early anomaly detection."},
-  {"name":"Broken Part Detection","type":"AI Vision Inspection","image":"assets/broken-part-detection-new.png","desc":"Vision inspection for cracks, missing pieces, deformation and visible component damage."},
-  {"name":"Vision Detection System","type":"Industrial Vision","image":"assets/vision-detection-new.png","desc":"Industrial camera and edge-AI inspection for presence, position, orientation and surface quality."},
-  {"name":"Smart RWH Guardian","type":"Rainwater Harvesting","image":"assets/rainwater-harvesting.png","desc":"Smart rainwater harvesting monitoring, water-quality sensing, recharge control and remote alerts."}
+  {
+    "name": "Smart Soil Testing & Irrigation",
+    "type": "Agriculture IoT",
+    "image": "assets/smart-soil.png",
+    "desc": "Portable soil testing, nutrient sensing and connected irrigation intelligence for practical agriculture."
+  },
+  {
+    "name": "SirenGuard",
+    "type": "Connected Safety",
+    "image": "assets/sirenguard.png",
+    "desc": "Plug-and-play emergency alerting with replaceable controller, LTE, audio, amplifier and power modules."
+  },
+  {
+    "name": "HomeGuard",
+    "type": "Smart Water",
+    "image": "assets/homeguard.png",
+    "desc": "Smart tank, pump, flow and leakage monitoring with connected household water control."
+  },
+  {
+    "name": "FarmGuard",
+    "type": "Agriculture IoT",
+    "image": "assets/farmguard.png",
+    "desc": "Smart irrigation pump control with water-level monitoring, dry-run protection, overflow prevention where applicable, and remote monitoring."
+  },
+  {
+    "name": "QBESIQ FactoryOS",
+    "type": "Factory Intelligence",
+    "image": "assets/factoryos-new.png",
+    "desc": "AI-powered factory operating system for machine condition, production signals, events and analytics."
+  },
+  {
+    "name": "MachineGuard AI",
+    "type": "Predictive Maintenance",
+    "image": "assets/machineguard.png",
+    "desc": "Vibration, temperature and current-based machine-health monitoring and early anomaly detection."
+  },
+  {
+    "name": "Broken Part Detection",
+    "type": "AI Vision Inspection",
+    "image": "assets/broken-part-detection-new.png",
+    "desc": "Vision inspection for cracks, missing pieces, deformation and visible component damage."
+  },
+  {
+    "name": "Vision Detection System",
+    "type": "Industrial Vision",
+    "image": "assets/vision-detection-new.png",
+    "desc": "Industrial camera and edge-AI inspection for presence, position, orientation and surface quality."
+  },
+  {
+    "name": "Smart RWH Guardian",
+    "type": "Rainwater Harvesting",
+    "image": "assets/rainwater-harvesting.png",
+    "desc": "Smart rainwater harvesting monitoring, water-quality sensing, recharge control and remote alerts."
+  }
 ]

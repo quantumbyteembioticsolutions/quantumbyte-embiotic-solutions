@@ -25,6 +25,15 @@ const projects = [
     stack:'CM5 / ESP32-S3 • LTE • Ethernet • Wi-Fi • BLE • I²S • Class-D • BMS'
   },
   {
+    title:'FarmGuard Smart Irrigation Pump Controller', category:'Agriculture IoT', image:'assets/farmguard.png',
+    summary:'Smart irrigation pump control with water-level monitoring, motor protection and connected field status.',
+    problem:'Agricultural pumps can run dry, waste water or operate at the wrong time when irrigation and tank conditions are not monitored.',
+    solution:'FarmGuard is a connected pump-controller concept for agricultural installations, combining water-level inputs, protected pump-control logic and a mobile monitoring interface.',
+    features:['Tank / borewell water-level monitoring','Automatic irrigation pump start / stop','Dry-run protection using suitable sensors','Overflow prevention where tank sensing is installed','Remote status, alerts and control','Pump runtime and event history'],
+    details:'Designed for farms and irrigation installations. Sensor selection, pump ratings, electrical protection and connectivity options are finalized for the installation during engineering.',
+    stack:'ESP32 / suitable MCU • Level sensing • Pump control interface • Wi-Fi / optional cellular • Mobile dashboard'
+  },
+  {
     title:'HomeGuard Smart Water System', category:'Smart Infrastructure', image:'assets/homeguard.png',
     summary:'Connected water monitoring and control for tanks, pumps, leakage and household water management.',
     problem:'Water overflow, dry-run pumps, hidden leakage and poor visibility can waste water and damage household infrastructure.',
@@ -84,6 +93,7 @@ const products = [
   {name:'Smart Soil Testing & Irrigation',type:'Agriculture IoT',image:'assets/smart-soil.png',desc:'Portable soil testing, nutrient sensing and connected irrigation intelligence for practical agriculture.'},
   {name:'SirenGuard',type:'Connected Safety',image:'assets/sirenguard.png',desc:'Plug-and-play emergency alerting with replaceable controller, LTE, audio, amplifier and power modules.'},
   {name:'HomeGuard',type:'Smart Water',image:'assets/homeguard.png',desc:'Smart tank, pump, flow and leakage monitoring with connected household water control.'},
+  {name:'FarmGuard',type:'Agriculture IoT',image:'assets/farmguard.png',desc:'Smart irrigation pump control with water-level monitoring, dry-run protection, overflow prevention where applicable, and remote monitoring.'},
   {name:'QBESIQ FactoryOS',type:'Factory Intelligence',image:'assets/factoryos-new.png',desc:'AI-powered factory operating system for machine condition, production signals, events and analytics.'},
   {name:'MachineGuard AI',type:'Predictive Maintenance',image:'assets/machineguard.png',desc:'Vibration, temperature and current-based machine-health monitoring and early anomaly detection.'},
   {name:'Broken Part Detection',type:'AI Vision Inspection',image:'assets/broken-part-detection-new.png',desc:'Vision inspection for cracks, missing pieces, deformation and visible component damage.'},
